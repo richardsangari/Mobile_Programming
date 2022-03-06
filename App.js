@@ -1,13 +1,17 @@
+/* eslint-disable prettier/prettier */
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
  *
  * @format
  * @flow strict-local
+ * 
  */
+// Hallo berda pada folder components 
+
  import React from 'react';
  import type {Node} from 'react';
- import Hallo, { Kallo, Nilai, Tambah } from './component/hallo';
+ import Hallo from './components/hello';
  import {
    SafeAreaView,
    TouchableOpacity,
@@ -94,12 +98,8 @@
    return (
    
      <View> 
-       <Hallo nama="Real Madrid"/>
-       <Tambah tambah=" Barcelona"/>
-       <Text>=============================================</Text>
-       <Nilai nilai="FIFA"/>
-       <Text>=============================================</Text>
-       <Kallo />
+       <Text>======================================================</Text>
+       <Hallo nama="Richard"/>
      </View>
     
    )
@@ -107,7 +107,7 @@
  
  const styles = StyleSheet.create({
    sectionContainer: {
-     marginTop: 32,
+     marginTop: 40,
      paddingHorizontal: 24,
    },
    sectionTitle: {
@@ -116,7 +116,7 @@
    },
    sectionDescription: {
      marginTop: 8,
-     fontSize: 18,
+     fontSize: 30,
      fontWeight: '400',
    },
    highlight: {
@@ -164,3 +164,4 @@
  //     </SafeAreaView>
  //   );
  // }
+ 
