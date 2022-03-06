@@ -99,7 +99,7 @@
    
      <View> 
        <Text>======================================================</Text>
-       <Text>Latihan Membuat props, state dan styling di react native</Text>
+       <Text>Latihan Membuat props, state dan styling di react native !!</Text>
        <Hallo nama="Richard"/>
      </View>
     
