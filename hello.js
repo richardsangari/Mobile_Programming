@@ -51,13 +51,13 @@ import { SafeAreaView, Text, View, TouchableOpacity } from 'react-native'
 import { StyleSheet } from "react-native";
 const style = StyleSheet.create({
     tulisan: {
-        fontSize: 35,
-        color: 'black',
+        fontSize: 34,
+        color: 'purple',
         textAlign: 'center'
     },
     nomor:{
-        fontSize: 30,
-        color: 'red',
+        fontSize: 35,
+        color: 'black',
         textAlign: 'center'
     },
 
@@ -76,7 +76,7 @@ export default function Hallo() {
     <SafeAreaView>
       <TouchableOpacity onPress={() => rubahNilai(nilai + 1)}>
         <View>
-          <Text style={style.tulisan}>TAMBAH</Text>
+          <Text style={style.tulisan}>=TAMBAH=</Text>
         </View>
       </TouchableOpacity>
       <View>
@@ -87,14 +87,14 @@ export default function Hallo() {
       <TouchableOpacity onPress={() => rubahNilai(nilai - 1)}>
         <View>
           <Text style={style.tulisan}>
-            KURANG
+            =KURANG=
           </Text>
         </View>
       </TouchableOpacity>
       <TouchableOpacity onPress={() => rubahNilai(0)}>
         <View>
           <Text style={style.tulisan}>
-            RESET
+            =RESET=
           </Text>
         </View>
       </TouchableOpacity>
